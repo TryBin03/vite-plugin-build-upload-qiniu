@@ -1,14 +1,14 @@
 {
-	"name": "vite-plugin-qiniu-oss",
-	"version": "1.0.6",
-	"description": "vite-plugin qiniu cdn oss",
+	"name": "vite-plugin-build-upload-qiniu",
+	"version": "1.0.0",
+	"description": "vite-plugin build upload qiniu cdn",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/th-come/vite-plugin-qiniu-oss.git"
+		"url": "https://github.com/TryBin03/vite-plugin-build-upload-qiniu.git"
 	},
 	"author": "th",
 	"license": "ISC",
@@ -26,9 +26,9 @@
 		"revalidator": "^0.3.1"
 	},
 	"peerDependencies": {
-		"vite": "^3"
+		"vite": "^4"
 	},
 	"publishConfig": {
-		"registry": "https://registry.npmjs.org/"
+		"registry": "https://registry.npmmirror.com/"
 	}
 }
